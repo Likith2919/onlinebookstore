@@ -21,7 +21,7 @@
 - View Available Books.
 - Select Books to Buy.
 - Select Books Quantity.
-- Buy Books.
+- Buy Books
 - Get Payment Receipt.
 
 ### Technologies used:-
