@@ -4,7 +4,9 @@ pipeline {
         stage ('build') {
             steps {
                 cleanWs()
-                sh 'mvn clean package'
+                dir('onlinebookstore') {
+                    sh 'mvn clean package'
+                }
             }
         }
     }
