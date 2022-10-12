@@ -2,8 +2,8 @@ pipeline {
     agent any
     stages {
         stage ('build') {
-            cleanWs()
             steps {
+                cleanWs()
                 sh 'mvn clean package'
             }
         }
